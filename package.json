@@ -5,6 +5,10 @@
     "main": "src/index.js",
     "license": "MIT",
     "devDependencies": {
-            "eslint": "^6.7.2"
+        "eslint": "^6.7.2"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "nodemailer": "^6.4.2"
     }
 }
