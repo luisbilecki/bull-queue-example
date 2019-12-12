@@ -1,3 +1,3 @@
 module.exports = {
-    sendMail: require('./sendMail'),
+    sendMailQueue: require('./sendMail'),
 };

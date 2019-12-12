@@ -15,7 +15,7 @@ const mailerTransport = nodemailer.createTransport({
     },
 });
 
-const sendEmail = ({ from = defaultEmailFrom, to, subject, text }) => {
+const sendMail = ({ from = defaultEmailFrom, to, subject, text }) => {
     return mailerTransport.sendMail({
         from, 
         to,
@@ -24,4 +24,4 @@ const sendEmail = ({ from = defaultEmailFrom, to, subject, text }) => {
     });
 };
 
-module.exports = { sendEmail };
+module.exports = { sendMail };
