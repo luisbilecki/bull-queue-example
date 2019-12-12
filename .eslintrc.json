@@ -1,0 +1,64 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "jasmine": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "modules": true,
+            "spread": true,
+            "restParams": true,
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1,
+                "ArrayExpression": 1,
+                "CallExpression": {
+                    "arguments": 1
+                },
+                "FunctionExpression": {
+                    "body": 1,
+                    "parameters": 2
+                },
+                "FunctionDeclaration": {
+                    "body": 1,
+                    "parameters": 2
+                }
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "off",
+        "no-multi-spaces": [
+            "error",
+            {
+                "ignoreEOLComments": true
+            }
+        ],
+        "brace-style": "error",
+        "block-spacing": ["error", "always"],
+        "space-before-function-paren": ["error", "never"],
+        "space-in-parens": ["error", "never"],
+        "func-call-spacing": ["error", "never"],
+        "no-var": "error"
+    }
+}

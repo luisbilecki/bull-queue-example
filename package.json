@@ -1,0 +1,10 @@
+{
+    "name": "bull-queue-example",
+    "version": "1.0.0",
+    "description": "An example of possible usage of a queue management system with Bull",
+    "main": "src/index.js",
+    "license": "MIT",
+    "devDependencies": {
+            "eslint": "^6.7.2"
+    }
+}
