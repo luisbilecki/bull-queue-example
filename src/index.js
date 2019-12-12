@@ -1,11 +1,13 @@
 require('dotenv').config();
 
+const faker = require('faker');
+
 // Mail queue 
 const { sendMailQueue, quotationQueue } = require('./queues/');
 
 // Data for email job
 const mailData = {
-    userEmail: '<USER_EMAIL_HERE>',
+    userEmail: faker.internet.email(),
     subject: 'Subject here',
     body: 'Hello!',
 };
