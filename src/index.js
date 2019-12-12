@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 // Mail queue 
-const { sendMailQueue } = require('./queues/');
+const { sendMailQueue, quotationQueue } = require('./queues/');
 
 // Data for email job
 const mailData = {
@@ -19,3 +19,6 @@ const jobOptions = {
 // Add email send job to queue
 sendMailQueue.add(mailData, jobOptions);
 
+// Cron-based job
+// Repeat quotation job at every minute from 8-17 hours on business days (Monday to Friday)
+quotationQueue.add({}, { repeat: { cron: '* 8-17 * * 1-5' }});
