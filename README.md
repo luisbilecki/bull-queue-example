@@ -47,7 +47,12 @@ OR
 
 ### Bonus
 
-This examples comes with [Arena](https://github.com/bee-queue/arena) installed, an interactive Web GUI for Bee Queue and Bull. With Arena we can view the queues, start/stop jobs, perform job retry, and more.
+This examples comes with [Arena](https://github.com/bee-queue/arena) installed, an interactive Web GUI for Bee Queue and Bull. With Arena we can view the queues, start/stop jobs, perform job retry, and more. Run Arena server using:
+
+```bash
+    yarn run-arena
+```
+
 
 ## Further improvements
 

@@ -6,7 +6,7 @@
     "license": "MIT",
     "scripts": {
         "start": "node src/index.js",
-        "bull-arena": "node src/bullArena.js"
+        "run-arena": "node src/arenaServer.js"
     },
     "devDependencies": {
         "eslint": "^6.7.2"
