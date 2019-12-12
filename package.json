@@ -4,6 +4,10 @@
     "description": "An example of possible usage of a queue management system with Bull",
     "main": "src/index.js",
     "license": "MIT",
+    "scripts": {
+        "start": "node src/index.js",
+        "bull-arena": "node src/bullArena.js"
+    },
     "devDependencies": {
         "eslint": "^6.7.2"
     },
