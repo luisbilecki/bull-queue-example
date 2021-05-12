@@ -16,6 +16,6 @@
         "bull-arena": "^2.6.4",
         "dotenv": "^8.2.0",
         "faker": "^4.1.0",
-        "nodemailer": "^6.4.2"
+        "nodemailer": "^6.4.16"
     }
 }
